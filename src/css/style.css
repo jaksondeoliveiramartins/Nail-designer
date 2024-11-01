@@ -91,6 +91,11 @@ body {
 }
 
 @media (max-width:425px) {
+    .hero::after{
+        max-height: 2rem;
+        margin: 0 auto;
+
+    }
     .hero {
         height: 69vh;
     }
@@ -100,6 +105,11 @@ body {
         text-align: center;
     }
 
+}
+@media (max-width:480px){
+    .hero h2 {
+        text-align: center;
+    }
 }
 
 
@@ -274,6 +284,13 @@ body {
         align-self: center;
         margin: 0 auto;
     }
+}
+@media( max-width:480px){
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
 }
 
 /* stop */
